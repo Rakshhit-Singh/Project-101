@@ -23,8 +23,8 @@ def main():
     access_token = 'nyAVxMK6ipkAAAAAAAAAAeGUJLUxC6QKnUpJQRf39gtfsZD5rfZ9B6GYEL4H2bcY'
     transferData = TransferData(access_token)
 
-    file_from = input("Enter the file path to transfer: ")
-    file_to = input("Enter the path to upload the file: ") # Enter /RitikClass101/folder_name/file_name
+    file_from = input("Enter the folder path to transfer: ")
+    file_to = input("Enter the path to upload the file: ")
 
     transferData.upload_file(file_from, file_to)
     print('File has been transferred.')
